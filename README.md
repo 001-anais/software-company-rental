@@ -67,15 +67,6 @@ El proyecto seguirá un proceso iterativo e incremental basado en:
 - Revisión de cambios mediante Pull Requests.
 - Uso supervisado de herramientas de IA.
 
-## Tecnologías previstas
-
-- Java
-- Maven
-- Spring Boot
-- Spring Data JPA
-- JUnit
-- GitHub
-
 ## Documentación
 
 - README.md
@@ -87,10 +78,59 @@ El proyecto seguirá un proceso iterativo e incremental basado en:
 
 Completado:
 
-- Creación del repositorio.
-- Creación del Project de GitHub.
+- Creación del repositorio GitHub.
+- Creación del Project Board.
 - Definición del Product Backlog.
 - Creación de historias de usuario.
 - Configuración inicial del proyecto.
 - Creación de la documentación base.
+- Generación del proyecto Maven/Spring Boot.
+- Configuración de la estructura base del proyecto.
+- Creación de la primera página de prueba.
 
+## Tecnologías utilizadas
+
+- Java 17
+- Maven
+- Spring Boot
+- Spring Data JPA
+- JUnit
+- GitHub
+
+## Dependencias principales
+### Spring Web
+
+Permite desarrollar aplicaciones web utilizando Spring MVC, controladores y gestión de peticiones HTTP.
+
+### Thymeleaf
+
+Motor de plantillas utilizado para generar vistas HTML.
+
+## Construcción y ejecución
+### Requisitos
+
+- Java 17
+
+### Limpiar el proyecto
+
+- .\mvnw.cmd clean
+
+### Ejecutar pruebas
+
+- .\mvnw.cmd test
+
+### Generar el paquete
+
+- .\mvnw.cmd package
+
+### Verificar el proyecto
+
+- .\mvnw.cmd verify
+
+### Ejecutar la aplicación
+
+- .\mvnw.cmd spring-boot:run
+
+### URL local
+
+- http://localhost:8080
