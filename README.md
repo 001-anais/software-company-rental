@@ -1,27 +1,96 @@
-# software-company-rental
-PROYECTO DE LABORATORIO PARA ISO II (curso 2026-2027)
+# Software Company Rental Platform
 
-# Plataforma de alquiler de viviendas
+Proyecto de laboratorio para la asignatura Ingeniería del Software II (curso 2026-2027).
 
-Proyecto desarrollado para el laboratorio de Ingeniería del Software II (curso 2026-2027).
+## Descripción
 
-# Equipo
+Desarrollo de una plataforma de alquiler de viviendas inspirada en sistemas como Airbnb, siguiendo un proceso iterativo e incremental de ingeniería del software.
 
-Empresa: software-company
+El proyecto se desarrolla como parte del laboratorio de Ingeniería del Software II, aplicando técnicas de gestión de proyectos, control de versiones, trazabilidad, pruebas, calidad de software y uso supervisado de inteligencia artificial.
 
-Integrantes:
+## Equipo
+
+### Empresa
+
+Software Company
+
+### Integrantes
+
 - Pablo Ahijón Hormigos
 - Irene Caraballo Jerez
 - Anaís Chiquito Patiño
 - Hugo Fernández Blanco
 
-Portavoz:
+### Portavoz
+
 - Anaís Chiquito Patiño
+
+### Responsabilidades iniciales
+
+- Pablo Ahijón Hormigos
+  - Gestión de configuración
+  - Coordinación y seguimiento del proyecto
+
+- Irene Caraballo Jerez
+  - Pruebas y verificación
+  - Seguimiento de criterios de aceptación
+ 
+- Anaís Chiquito Patiño
+  - Portavoz del equipo
+  - Repositorio y control de versiones
+
+- Hugo Fernández Blanco
+  - Gestión del producto
+  - Requisitos y backlog
+
+> Estas responsabilidades son iniciales y podrán modificarse durante el desarrollo del proyecto.
 
 ## Objetivo
 
-Desarrollar una plataforma para la gestión de alquiler de viviendas siguiendo un proceso iterativo e incremental de ingeniería del software.
+Desarrollar una plataforma que permita:
 
-## Estado
+- Registro de usuarios.
+- Publicación de inmuebles.
+- Gestión de disponibilidad.
+- Búsqueda de alojamientos.
+- Creación y gestión de reservas.
+- Simulación de pagos.
 
-Sprint 0 - Preparación y planificación.
+## Metodología de trabajo
+
+El proyecto seguirá un proceso iterativo e incremental basado en:
+
+- Product Backlog.
+- Historias de usuario.
+- Issues de GitHub.
+- Iteraciones planificadas.
+- Revisión de cambios mediante Pull Requests.
+- Uso supervisado de herramientas de IA.
+
+## Tecnologías previstas
+
+- Java
+- Maven
+- Spring Boot
+- Spring Data JPA
+- JUnit
+- GitHub
+
+## Documentación
+
+- README.md
+- AGENTS.md
+- AI_USAGE.md
+
+## Estado del proyecto
+### Sprint 0 - Preparación y planificación
+
+Completado:
+
+- Creación del repositorio.
+- Creación del Project de GitHub.
+- Definición del Product Backlog.
+- Creación de historias de usuario.
+- Configuración inicial del proyecto.
+- Creación de la documentación base.
+
