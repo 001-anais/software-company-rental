@@ -88,6 +88,14 @@ Completado:
 - Configuración de la estructura base del proyecto.
 - Creación de la primera página de prueba.
 
+## Documentación del proyecto
+
+La documentación viva del proyecto se mantiene en:
+
+- docs/technical/: base técnica y dependencias.
+- docs/diagrams/: diagramas UML y modelos.
+- docs/decisions/: decisiones técnicas relevantes.
+
 ## Tecnologías utilizadas
 
 - Java 17
@@ -98,6 +106,7 @@ Completado:
 - GitHub
 
 ## Dependencias principales
+
 ### Spring Web
 
 Permite desarrollar aplicaciones web utilizando Spring MVC, controladores y gestión de peticiones HTTP.
@@ -107,30 +116,13 @@ Permite desarrollar aplicaciones web utilizando Spring MVC, controladores y gest
 Motor de plantillas utilizado para generar vistas HTML.
 
 ## Construcción y ejecución
+
 ### Requisitos
 
 - Java 17
 
 ### Limpiar el proyecto
 
-- .\mvnw.cmd clean
-
-### Ejecutar pruebas
-
-- .\mvnw.cmd test
-
-### Generar el paquete
-
-- .\mvnw.cmd package
-
-### Verificar el proyecto
-
-- .\mvnw.cmd verify
-
-### Ejecutar la aplicación
-
-- .\mvnw.cmd spring-boot:run
-
-### URL local
-
-- http://localhost:8080
+```powershell
+.\mvnw.cmd clean
+``
