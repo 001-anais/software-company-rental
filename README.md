@@ -94,3 +94,10 @@ Completado:
 - Configuración inicial del proyecto.
 - Creación de la documentación base.
 
+## Documentación del proyecto
+
+La documentación viva del proyecto se mantiene en:
+
+- docs/technical/: base técnica y dependencias.
+- docs/diagrams/: diagramas UML y modelos.
+- docs/decisions/: decisiones técnicas relevantes.
