@@ -1,6 +1,10 @@
-es\uclm\rentalplatform\repository\PropertyRepository.class
+es\uclm\rentalplatform\repository\UserRepository.class
 es\uclm\rentalplatform\service\PropertyService.class
+es\uclm\rentalplatform\service\UserService.class
 es\uclm\rentalplatform\domain\Property.class
 es\uclm\rentalplatform\RentalplatformApplication.class
 es\uclm\rentalplatform\web\HomeController.class
+es\uclm\rentalplatform\repository\PropertyRepository.class
+es\uclm\rentalplatform\domain\User.class
+es\uclm\rentalplatform\web\UserController.class
 es\uclm\rentalplatform\web\PropertyController.class
