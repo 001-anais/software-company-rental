@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Inmuebles</title>
+</head>
+
+<body>
+
+    <h1>Alta de Inmuebles</h1>
+
+    <form th:action="@{/properties}" method="post">
+
+        <label>Título:</label>
+        <input type="text"
+               name="title"
+               placeholder="Título del inmueble"
+               required>
+
+        <br><br>
+
+        <label>Ciudad:</label>
+        <input type="text"
+               name="city"
+               placeholder="Ciudad"
+               required>
+
+        <br><br>
+
+        <button type="submit">
+            Guardar inmueble
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>Listado de inmuebles</h2>
+
+    <ul>
+
+        <li th:each="property : ${properties}">
+
+            <span th:text="${property.title}"></span>
+            -
+            <span th:text="${property.city}"></span>
+
+        </li>
+
+    </ul>
+
+</body>
+
+</html>
